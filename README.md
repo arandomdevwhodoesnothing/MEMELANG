@@ -1,2 +1,0 @@
-# MEMELANG
-no cap

@@ -1,0 +1,112 @@
+# ============================================
+#   CALCULATOR.meme
+#   A bussin calculator fr fr
+# ============================================
+
+npc start:
+  W ================================
+  slay
+  W   MEMELANG CALCULATOR no cap
+  slay
+  W ================================
+  slay
+  W Enter first number: 
+  rizz a
+  W Enter second number: 
+  rizz b
+  slay
+  W Pick ur operation:
+  slay
+  W   1 = rizzup   ( + )
+  slay
+  W   2 = lowkey   ( - )
+  slay
+  W   3 = gyatt    ( * )
+  slay
+  W   4 = ratio    ( / )
+  slay
+  W   5 = ratioed  ( % )
+  slay
+  W Choose (1-5): 
+  rizz op
+  slay
+
+  sheesh op fr 1 do_add
+  sheesh op fr 2 do_sub
+  sheesh op fr 3 do_mul
+  sheesh op fr 4 do_div
+  sheesh op fr 5 do_mod
+
+  W bro what is that input L
+  slay
+  yeet start
+
+npc do_add:
+  vibe result rizzup a b
+  W Result: 
+  noice a
+  W  + 
+  noice b
+  W  = 
+  noice result
+  slay
+  yeet again
+
+npc do_sub:
+  vibe result lowkey a b
+  W Result: 
+  noice a
+  W  - 
+  noice b
+  W  = 
+  noice result
+  slay
+  yeet again
+
+npc do_mul:
+  vibe result gyatt a b
+  W Result: 
+  noice a
+  W  * 
+  noice b
+  W  = 
+  noice result
+  slay
+  yeet again
+
+npc do_div:
+  sheesh b fr 0 divide_by_zero
+  vibe result ratio a b
+  W Result: 
+  noice a
+  W  / 
+  noice b
+  W  = 
+  noice result
+  slay
+  yeet again
+
+npc do_mod:
+  sheesh b fr 0 divide_by_zero
+  ratio a b result
+  W Result: 
+  noice a
+  W  % 
+  noice b
+  W  = 
+  noice result
+  slay
+  yeet again
+
+npc divide_by_zero:
+  W bro tried to divide by zero 💀 L + ratio
+  slay
+  yeet again
+
+npc again:
+  W Go again? (1=yes 0=no): 
+  rizz again
+  sheesh again fr 1 start
+  W gg no re
+  slay
+  gg

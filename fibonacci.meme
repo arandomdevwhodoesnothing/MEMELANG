@@ -1,0 +1,23 @@
+# Fibonacci in MemeLang
+# Prints first 15 Fibonacci numbers
+
+yolo a 0
+yolo b 1
+yolo tmp 0
+yolo count 0
+yolo limit 15
+
+npc fib_loop:
+  sheesh count based limit fib_done
+  noice a
+  slay
+  vibe tmp rizzup a b
+  yolo a b
+  yolo b tmp
+  bruh count
+  yeet fib_loop
+
+npc fib_done:
+  W bussin fr fr
+  slay
+  gg

@@ -1,0 +1,43 @@
+# FizzBuzz in MemeLang - no cap, this actually works
+# Counts 1 to 20 and does FizzBuzz
+
+yolo i 1
+yolo limit 20
+yolo three 3
+yolo five 5
+yolo zero 0
+yolo r3 0
+yolo r5 0
+
+npc loop_start:
+  sheesh i based limit done
+
+  ratio i three r3
+  ratio i five r5
+
+  sheesh r3 fr zero fizzbuzz_check_five
+  sheesh r5 fr zero buzz_only
+
+  # Neither fizz nor buzz, print number
+  noice i
+  yeet next
+
+npc fizzbuzz_check_five:
+  sheesh r5 fr zero fizzbuzz
+  W Fizz
+  yeet next
+
+npc fizzbuzz:
+  W FizzBuzz
+  yeet next
+
+npc buzz_only:
+  W Buzz
+
+npc next:
+  slay
+  bruh i
+  yeet loop_start
+
+npc done:
+  W done slay gg
